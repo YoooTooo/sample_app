@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20200618145208) do
+ActiveRecord::Schema.define(version: 20200623090819) do
 
 # Could not dump table "users" because of following StandardError
 #   Unknown type 'stringra' for column 'password_digest'
