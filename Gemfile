@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby "2.6.3"
+
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
@@ -12,6 +14,9 @@ source 'https://rubygems.org'
 
 gem 'rails',          '5.1.6'
 gem 'bcrypt',         '3.1.12'
+gem 'faker',          '1.9.1'
+gem 'will_paginate',           '3.1.6'
+gem 'bootstrap-will_paginate', '1.0.0'
 gem 'rails',        '5.1.6'
 gem 'bootstrap-sass', '3.3.7'
 gem 'puma',         '3.9.1'
